@@ -9,11 +9,13 @@
 }
 
 .header-contacts__link {
+   @extend %link; 
+
    display: flex;
    align-items: center;
    padding: 32px 0;
 
-   color: var(--color-gray-text);
+   color: $color-text-gray;
 }
 
 .header-contacts__icon {
